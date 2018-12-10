@@ -1,6 +1,6 @@
 <?php
-session_start();
 
+include 'data.php';
 ?>
 
 <!DOCTYPE html>
@@ -92,8 +92,7 @@ session_start();
             
            <label class="label" alt="Votre message">Votre message : </label>
             <textarea name="message" id="message" cols="20" rows="15" class="materialize-textarea"></textarea>
-            <input class="submit col s4 push-s4" id='submit' type="submit"  
-            <?php     ?> >
+            <input class="submit col s4 push-s4" id='submit' type="submit" name="button">
 
         </form>
     </div> 

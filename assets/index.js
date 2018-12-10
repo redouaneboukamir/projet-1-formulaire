@@ -10,8 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   
-//   $('#button').click(function(){
+//   $('#submit').click(function(){
       
-//     if($('#first_name').val()){
+//     if($('#email').val()==""){
 //       alert('completer first');
-//   }}
+//         }
+//     });

@@ -1,5 +1,42 @@
 @import 'stylesheet';
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .infos{
+        border-right: 1px solid #15c5bd;
+        border-bottom: 1px solid #15c5bd;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        figure{
+            display: flex;
+            justify-content: center;
+            img{
+               height: 50%;
+               width: 50%;
+            }
+        }
+        p{
+            text-align: left;
+            font-family: 'bellotaregular';
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+    }
+}
+.contentErreur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .erreur{
+        color: red;
+    }
+
+}
 
 .logo{
     display: flex;
